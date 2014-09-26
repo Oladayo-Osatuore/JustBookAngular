@@ -1,0 +1,125 @@
+/***************************************
+HEADER
+***************************************/
+
+
+header {
+	background-color: #135987;
+	padding: 0 0 4% 0;
+	text-align: center;
+}
+
+
+
+/**************************************
+BODY
+**************************************/
+
+
+#input_div {
+	padding: 1em;
+}
+
+
+
+#just_books {
+	text-align: left;
+	padding: 0 0 1px 0;
+	font-family: sans-serif, tahoma, serif;
+	color: white;
+	text-align: center
+}
+
+
+
+#input_text {
+	margin:;
+}
+
+
+#submit:hover {
+	color: #135987;
+}
+
+
+
+#div_picture {
+	background: url(../img/bookimage1.jpg) no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	-o-background-size: cover;
+	min-height: 40%;
+}
+
+
+.div_post {
+	display: inline-block;
+	margin: 5%;
+	padding: 0 0 0 8px;
+	margin: 10px 0 1px 21px;
+}
+
+
+
+/******************************************************
+CLASSES GOTTEN FROM MY BOOK.JS FILE
+******************************************************/
+
+#image {
+	border: 2px solid grey;
+	box-shadow: 1px 1px 5px 3px gray;
+}
+
+#image:hover{
+	border: 1px solid gray;
+	box-shadow: 1px 1px 7px 5px gray;
+	}
+
+
+/************************************
+FOOTER
+************************************/
+
+
+ footer {
+	font-size: 1em;
+	text-align: center;
+	clear: both;
+	padding-top: 25px;
+	color: #000;
+	background-color: #888;
+}
+
+
+/*footer nav {
+	padding: 0 10px 0 0;
+	background-color: #000;
+	color: #fff;
+	width: 100%;
+}*/
+
+
+footer p {
+	padding: 0 10px 0 0;	
+	width: 100%;
+	color: #000;
+}
+
+
+
+.social-icon1 {
+	width: 23px;
+	height: 23px;
+	margin: 0.5px;
+	padding-top: 7px;
+
+}
+
+
+.social-icon2 {
+	width: 30px;
+	height: 30px;
+	margin: 0.5px;
+	padding-top: 10px;
+}
