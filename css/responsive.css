@@ -1,0 +1,82 @@
+@media screen and  (min-width: 480px) {
+	/******************************************
+	HEADER
+	******************************************/
+
+	#header {
+		height: 13px;
+		background: #135987;
+	}
+
+
+	#input_div {
+		padding: 1.5% 0 0 0;
+	} 
+
+
+	.div_post {
+	display: inline-block;
+	margin: 5%;
+	padding: 0 0 0 8px;
+	margin: 10px 0 1px 21px;
+}
+
+	#just_books {
+		text-align: left;
+		font-family: sans-serif, tahoma, serif;
+		float: left;
+		color: white;
+		padding: 0 0 0 4%;
+		font-size: 2em;
+	}
+
+	#input_text {
+		width: 30%;
+		height: 34px;
+	}
+
+
+
+	#submit {
+		padding: 0.6%;
+	}
+
+	#submit:hover {
+		color: #135987;
+	}
+	
+
+	.div_post {
+	padding-top: 0%;
+	display: inline-block;
+	margin: 5% 1% 2% 0;
+	width: 130px;
+	padding: 0 0 0 7.9%%;
+	}
+
+
+	#div_picture {
+	background: url(../img/bookimage.jpg) no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	-o-background-size: cover;
+	min-height: 65%;
+	}
+
+
+/******************************************************
+CLASSES GOTTEN FROM MY BOOK.JS FILE
+******************************************************/
+
+
+	#image {
+	border: 2px solid grey;
+	box-shadow: 1px 1px 5px 3px gray;
+	}
+
+	#image:hover{
+	border: 1px solid gray;
+	box-shadow: 1px 1px 7px 5px gray;
+	}
+

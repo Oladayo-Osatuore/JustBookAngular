@@ -1,0 +1,34 @@
+<html ng-app="angularBookApi">
+	<head>
+		<title>Just Books</title>
+		<link rel="stylesheet" href="css/reset.css" type="text/css">			
+		<link rel="stylesheet" href="css/main.css" type="text/css">
+		<link rel="stylesheet" href="css/responsive.css" type="text/css">
+		<script type="text/javascript" src="js/angular.min.js"></script>	
+	</head>
+<body ng-Controller="bookController">
+	<header id="header">
+		<div id="input_div">
+			<p id="just_books">Just Books</p>		
+			<input type="text" id="input_text" ng-model="searchbook"  placeholder="Search for a category here">
+			<input id="submit" type="submit" value="Submit" ng-click="getBooks(false)">
+		</div>
+	</header>
+		<div id="div_picture">
+			</div>
+		<div ng-repeat="book in books" class="div_post"><div id="image"><a ng-href="{{book.volumeInfo.previewLink}}" target="_blank"><img ng-src="{{book.volumeInfo.imageLinks.thumbnail}}"/></a></div><div>
+				
+			</div>
+		</div>
+		<div>
+
+		</div>
+		<footer>
+			<a href="http://twitter.com/osatuore"><img src="img/twiiter.jpg" alt="Twitter Logo" class="social-icon"></a>
+			<a href="http://facebook.com/Omorodion Osatuore"><img src="img/facebook.png" alt="Facebook Logo" class="social-icon"></a>
+			<p>&copy; 2014 Omorodion Osatuore.</p>
+		</footer>
+	 <!-- <script type="text/javascript" src="http://www.google.com/jsapi"></script> -->	
+	<script type="text/javascript" src="js/angularapi.js"></script>
+</body>
+</html>
